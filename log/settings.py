@@ -82,12 +82,26 @@ WSGI_APPLICATION = 'log.wsgi.application'
 #    }
 #}
 
+
+#yanmin mysql
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'api_log',
+#        'USER': 'yanmin',
+#        'PASSWORD': 'y!XbxQ5Yx3',
+#        'HOST': '106.39.160.52',
+#        'PORT': '3306',
+#    }
+#}
+
+#zhoayongjian mysql
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'api_log',
-        'USER': 'yanmin',
-        'PASSWORD': 'y!XbxQ5Yx3',
+        'NAME': 'monitor3',
+        'USER': 'zhaoyongjian',
+        'PASSWORD': 'Bw$5h#Tzv#',
         'HOST': '106.39.160.52',
         'PORT': '3306',
     }
